@@ -1,0 +1,17 @@
+.saved{
+    background-color: #242526;
+    margin: 3rem;
+    padding: 2rem;
+}
+.savedRow{
+    background-color: #111;
+    color: #fff;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+}
+.nocodemessg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

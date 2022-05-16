@@ -1,0 +1,49 @@
+.verify{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 15rem;
+    background-color: #fff;
+    width: 25rem;
+    margin: auto;
+    flex-direction: column;
+    margin-top:10rem;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.verify > h5{
+    margin-bottom: 1.8rem;
+    color: black;
+}
+.verify  > form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.verify > form >  input{
+    width: 90%;
+    margin-bottom: 1.8rem; 
+    border-radius: 10px;
+}
+.verify > form >  button{
+    width: 50%;
+}
+.create-title{
+    display: flex;
+    justify-content: center;
+    margin-top: 4rem;
+    margin-bottom: -2rem;
+}
+.create-title > h1{
+    font-size: 4rem;
+}
+.create-icon{
+    font-size: 5rem;
+    margin-right: 2rem;
+    color: rgb(224, 46, 238);
+}
+.verifyInp{
+    height: 3rem;
+    padding-left:2rem;
+    border: 3px solid black;
+}

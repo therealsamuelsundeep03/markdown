@@ -1,0 +1,96 @@
+.loginPage{
+    color : #fff;
+    background-color: #212121;
+    margin-top: 12rem;
+    z-index: 3;
+    position: relative;
+    padding: 2rem;
+  }
+  .logintitle{
+    display: flex;
+    margin: 2rem;
+  }
+  .login-icon{
+    font-size: 3rem;
+    margin-right: 1rem;
+    color: rgb(224, 46, 238);
+  }
+  .appLogin{
+    background-color:#242526;
+    padding:20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    color: grey;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    min-height: 400px;
+    /* min-width: 270px; */
+    padding: 2rem;
+    width: 300px;
+    border-radius: 0.8rem;
+  }
+  .appLogin>h2{
+    color: #fff;
+  }
+  .email{
+    margin-top: 3.05rem;
+  }
+  .email > label{
+    display: block;
+    margin-bottom: 10px;
+  }
+  .email > input {
+    min-width: 15rem;
+    margin-bottom: 1.2rem;
+  }
+  .password  > label{
+    display: block;
+    margin-bottom: 10px;
+  }
+  .password > input{
+    margin-bottom: 1.4rem;
+    color: #212121;
+  }
+  .googleLogin{
+    display: flex;
+    justify-content: center;
+  }
+  .googleLogin > button {
+    width: 16rem;
+  }
+  .googleLogin > button > div{
+    margin-left: 4rem;
+  }
+  .signIn{
+    display: flex;
+    justify-content: center;
+    width: 10rem;
+    margin-left: 3rem;
+    margin-top: 1.2rem;
+  }
+  .create{
+    display: flex;
+    justify-content: end;
+    text-decoration: none;
+    margin-top: 1.2rem;
+    margin-bottom: -0.8rem;
+  }
+  .newhere{
+      margin-left: -2rem;
+  }
+  .newhere{
+      margin-right: 3px;
+  }
+  .signup{
+      margin-left: 10px;
+  }
+  .signup > a {
+    text-decoration: none;
+  }
+  .signup > a:hover {
+      text-decoration: underline;
+  }

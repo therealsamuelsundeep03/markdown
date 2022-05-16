@@ -1,0 +1,26 @@
+.nav{
+    /* color: #fff; */
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+.navItems > ul{
+    display: flex; 
+    margin-right: 0rem;  
+}
+.title{
+    margin-left: 1rem;
+    display: flex;
+}
+.title > .icon {
+    margin-right: 1rem;
+    font-size: 2rem;
+    color: rgb(224, 46, 238);
+}
+.navItems > ul > li{
+    list-style-type: none;
+    margin-right: 4rem;
+    font-weight: 600;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
