@@ -5,7 +5,7 @@ function Googlelogin () {
     const [loginButton,setLoginButton] = useState (true);
     const [logoutButton,setlogoutButton] = useState (false);
 
-    const clientId = "478067663275-6m5e98p5p9et3416a396dmm63c1jkjre.apps.googleusercontent.com";
+    const clientId = "1jkjre.apps.googleusercontent.com";
 
     const loginSuccess = (res) => {
         console.log('login success::', res);
