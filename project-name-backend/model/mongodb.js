@@ -4,7 +4,7 @@ const mongo = {
     db : null,
 
     async connect(){
-        const client =  new MongoClient("mongodb+srv://samuel:plmqazsam123@guvi-experiment.etqqu.mongodb.net/myFirstDatabase?retryWrites=true&w=majority");
+        const client =  new MongoClient("mongodb+srv://samuel:@guvi-experiment.etqqu.mongodb.net/myFirstDatabase?retryWrites=true&w=majority");
         await client.connect()
             .then(() => {
                 console.log("connected to the database");
